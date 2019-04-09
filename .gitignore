@@ -1,0 +1,6 @@
+/.idea/
+/public/resources/
+/public/assets/
+/vendor/
+/themes/starter/
+/.env
