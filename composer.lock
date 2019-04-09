@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57863a0edbc5185d5448634a597ae5d3",
+    "content-hash": "b61f9deda866c4e0629f2dbd5fed50e9",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -1016,47 +1016,6 @@
                 "silverstripe"
             ],
             "time": "2018-04-04T12:23:09+00:00"
-        },
-        {
-            "name": "cwp/starter-theme",
-            "version": "2.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe/cwp-starter-theme.git",
-                "reference": "83ba91a3cfd537a57586e7e24ed9c66d5bcad616"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/cwp-starter-theme/zipball/83ba91a3cfd537a57586e7e24ed9c66d5bcad616",
-                "reference": "83ba91a3cfd537a57586e7e24ed9c66d5bcad616",
-                "shasum": ""
-            },
-            "require": {
-                "silverstripe/framework": "^4.0"
-            },
-            "suggest": {
-                "cwp/cwp": "Much of the functionality in this theme is enabled by this module"
-            },
-            "type": "silverstripe-theme",
-            "extra": {
-                "installer-name": "starter",
-                "expose": [
-                    "dist",
-                    "ico",
-                    "images"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "CWP Theme",
-            "keywords": [
-                "cwp",
-                "silverstripe",
-                "theme"
-            ],
-            "time": "2018-07-19T23:37:47+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -7679,6 +7638,39 @@
             "time": "2016-10-03T07:35:21+00:00"
         },
         {
+            "name": "silverstripe/fulltextsearch-localsolr",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe-archive/silverstripe-fulltextsearch-localsolr.git",
+                "reference": "f2a799e61fefd0540b792315332f1fe90a8e4a0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe-archive/silverstripe-fulltextsearch-localsolr/zipball/f2a799e61fefd0540b792315332f1fe90a8e4a0c",
+                "reference": "f2a799e61fefd0540b792315332f1fe90a8e4a0c",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "*",
+                "silverstripe/fulltextsearch": "*"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Hamish Friedlander",
+                    "email": "hamish@silverstripe.com"
+                }
+            ],
+            "description": "A pre-configured, ready to use Solr instance for local development with the SilverStripe fulltextsearch module",
+            "keywords": [
+                "silverstripe",
+                "solr"
+            ],
+            "time": "2018-07-06T13:33:04+00:00"
+        },
+        {
             "name": "squizlabs/php_codesniffer",
             "version": "3.4.1",
             "source": {
@@ -7745,7 +7737,7 @@
         "silverstripe/subsites": 0,
         "tractorcow/silverstripe-fluent": 0,
         "silverstripe/registry": 0,
-        "cwp/starter-theme": 0
+        "silverstripe/fulltextsearch-localsolr": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
